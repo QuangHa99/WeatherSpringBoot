@@ -12,5 +12,6 @@ public class MainController {
 	@GetMapping("/bookmark")
 	public String bookmark_view() {
 		return "saveWeather";
+		
 	}
 }
